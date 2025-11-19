@@ -1,0 +1,12 @@
+## Build artifacts
+/target
+
+## macOS Finder metadata
+.DS_Store
+
+## Rust backup files (rustfmt, editors)
+**/*.rs.bk
+
+## Cargo crash logs
+cargo-*.log
+
