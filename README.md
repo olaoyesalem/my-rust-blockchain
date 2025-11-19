@@ -1,6 +1,8 @@
 # Rust Blockchain
 
-A minimal blockchain implementation in Rust featuring:
+Custom blockchain implementation in Rust. This repository contains a minimal educational blockchain implementation showcasing basic building blocks.
+
+## Features
 
 - Block structure (`src/block.rs`)
 - Proof of Work (`src/proof_of_work.rs`)
