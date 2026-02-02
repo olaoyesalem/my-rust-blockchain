@@ -93,7 +93,7 @@ pub fn serialize(&self) -> Vec <u8> {
     bincode::serialize(self).unwrap().to_vec()
 }
 
-pub fn deserialize( bytes :&[u8] ). -> Block {
+pub fn deserialize( bytes :&[u8] )  -> Block {
     bincode::deserialize(bytes).unwrap()
 }
 

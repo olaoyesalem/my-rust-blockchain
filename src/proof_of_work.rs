@@ -19,7 +19,7 @@ pub fn run (&self) -> (i64, string ) {
             if hash_int.lt(self.target.borrow())
             {
                 println!("{}", HEXLOWER.encode(hash.as_slice()));
-                break:
+                break;
 
             }
             else{
